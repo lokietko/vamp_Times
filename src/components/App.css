@@ -1,0 +1,29 @@
+@font-face {
+
+    font-family: FoglihtenNo07;
+
+    src: url(../fonts/FoglihtenNo07.otf);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: FoglihtenNo07,Verdana,sans-serif;
+}
+
+body.day{
+      background: url("../images/iz.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+body.night{
+    background: url("../images/z.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.container{
+    margin:auto;
+    width: 90%;
+    height: 80%;
+    
+}

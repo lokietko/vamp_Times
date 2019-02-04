@@ -1,0 +1,83 @@
+
+
+.info{
+    position: relative;
+     height: 60vh;
+     width:33vw;
+    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color:beige;
+}
+span{
+    font-size: 1rem;
+}
+.infoBox{ 
+ font-size:1.5rem;
+    filter: blur(100%);
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+  
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+   justify-content: center;
+    /* background: rgba(207, 184, 193, 0.5);*/
+    
+}
+
+    .sunTimeBox{
+        width: 100%;
+       
+        display: flex;
+       justify-content:space-between;
+    }
+    
+    .sunIconsPosition{
+        width: 100%;
+      
+        display: flex;
+        justify-content:space-between;
+     
+
+    }
+    .sunny{
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+       
+        background: url("../images/sunny.png");
+        background-size:100%;
+        
+    }
+   
+    
+    .moonny{
+         background: url("../images/Oxygen-Icons.org-Oxygen-Status-weather-clear-night.ico");
+         background-size:100%;
+         display: inline-block;
+         width: 60px;
+         height: 60px;
+         
+    }
+    .infoStyleBox{
+        display: flex;
+width: 100%;
+    }
+    ul{
+        list-style-type: none;
+        
+
+  
+    }
+    .list1{
+        padding-top: 50px;
+        width: 60%;
+    }
+    .list2{
+         padding-top: 50px;
+        width:38%;
+    }
