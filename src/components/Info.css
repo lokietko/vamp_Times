@@ -1,6 +1,8 @@
 
 
 .info{
+   
+    display: block;
     position: relative;
      height: 60vh;
      width:33vw;
@@ -8,7 +10,6 @@
      display: flex;
      flex-direction: column;
      justify-content: center;
-     color:beige;
 }
 span{
     font-size: 1rem;
@@ -19,13 +20,13 @@ span{
     display: flex;
     flex-direction: column;
     height: 80%;
-  
+  border-radius: 2%;
     align-items: flex-start;
     width: 70%;
     margin: 0 auto;
     position: relative;
    justify-content: center;
-    /* background: rgba(207, 184, 193, 0.5);*/
+    background: rgba(250, 242, 245, 0.07);
     
 }
 

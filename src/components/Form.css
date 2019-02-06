@@ -1,5 +1,5 @@
 input{
-    color:white;
+   color: beige;
     border:2px solid beige;
     background: transparent;
     height: 35px;
@@ -7,12 +7,11 @@ input{
 
 }
 button{
-    color: white;
-    background-color: black;
+   color: beige;
     border:2px solid beige;
     background: transparent;
-    height: 35px;
-    width:75px;
+    height: 39px;
+    width:127px;
 }
 
 form{

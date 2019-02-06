@@ -27,14 +27,13 @@ const sunsetTime = new Date(sunset * 1000).toLocaleTimeString();
     <li>wind:</li>
     <li>pressure</li>
     <li>moon phase:</li>
-   <li><span></span>.</li>
     <li>UV:</li>
 </ul>
 <ul className="list2">
 
  <li>{humidity}%</li>
     <li>{wind}<span>m/sec</span></li>
-    <li>{pressure}<span>mm/h</span></li>
+    <li>{pressure}<span>hPa</span></li>
     <li>{moonphase}</li>
     <li>{uv}</li>
 </ul>

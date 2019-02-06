@@ -72,7 +72,8 @@ city:prev.value
 }
 componentDidMount(){
    const hour = new Date().toLocaleTimeString();
-if(hour>"6:00:00" && hour<"19:00:00"){
+   
+if(hour>"6:00:00" || hour<"19:00:00"){
 document.body.className="day";
 }else{
 document.body.className="night";

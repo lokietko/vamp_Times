@@ -15,15 +15,20 @@ body.day{
       background: url("../images/iz.jpg");
        background-repeat: no-repeat;
        background-size: cover;
+       color: brown;
+       font-weight: bold;
+
 }
 body.night{
     background: url("../images/z.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color:white;
+    
     }
 .container{
     margin:auto;
     width: 90%;
     height: 80%;
-    
+   
 }
